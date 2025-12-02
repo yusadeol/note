@@ -1,26 +1,29 @@
 # Note
 
-Aplicação simples para criação e organização de anotações. Permite editar o perfil do usuário e personalizar as cores das notas.
+Simple application for creating and organizing notes.
+Users can edit their profile and customize note colors for better organization.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54549125/152058253-b6b80bf9-3b04-4d14-a00f-92acd528d563.gif" height="400"/>
 </p>
 
-## Descrição
+## Description
 
-O Note foi desenvolvido do zero, sem uso de frameworks, seguindo o padrão MVC para manter o código organizado.  
-A aplicação possui um sistema de recuperação de senha e um componente de log próprio, responsável por registrar acessos indevidos ou erros, notificando automaticamente via bot no Telegram.
+Note was developed from scratch without using any framework, following the MVC pattern to keep the code organized.
+The application includes a password recovery system and a custom logging component responsible for recording unauthorized access or errors, sending alerts through a Telegram bot.
 
-## Funcionamento
+## How It Works
 
-As notas podem ser criadas, editadas, excluídas e organizadas por cores. O usuário também pode alterar informações do seu perfil. Todas as operações são simples e diretas, com foco na usabilidade.
+Users can create, edit, delete, and organize notes by color.
+They can also update their profile information.
+All actions are straightforward and focused on usability.
 
-## Colocando para funcionar
+## Running Locally
 
-Para testar o projeto localmente:
+To test the project locally:
 
-- Crie uma pasta chamada **cache** dentro da pasta `source`
-- Crie o arquivo `app.php` dentro da pasta `config` usando como base o arquivo `app.sample.php`
+- Create a folder named **cache** inside the `source` directory
+- Create the file `app.php` inside the `config` directory using `app.sample.php` as a reference
 
 ## License
 
