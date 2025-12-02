@@ -1,19 +1,27 @@
+# Note
+
+Aplicação simples para criação e organização de anotações. Permite editar o perfil do usuário e personalizar as cores das notas.
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54549125/152058253-b6b80bf9-3b04-4d14-a00f-92acd528d563.gif" height="400"/>
 </p>
 
-# Note
-Aplicação simples para fazer anotações. Você pode editar o seu perfil e também escolher as cores das suas notas para organiza-las melhor.
+## Descrição
 
-Criei um projeto bem organizado utilizando o padrão MVC. Também criei o meu próprio componente de log, com ele posso ficar mais tranqüilo, pois quando houver algum problema ou acesso indevido em alguma área do sistema eu serei notificado por um bot no telegram. O projeto também possui um sistema de recuperação de senha. O projeto foi feito do zero, não utilizei nenhum framework.
+O Note foi desenvolvido do zero, sem uso de frameworks, seguindo o padrão MVC para manter o código organizado.  
+A aplicação possui um sistema de recuperação de senha e um componente de log próprio, responsável por registrar acessos indevidos ou erros, notificando automaticamente via bot no Telegram.
 
-### Colocando para funcionar
+## Funcionamento
 
-Se você quiser testar o projeto localmente pode seguir os passos abaixo.
+As notas podem ser criadas, editadas, excluídas e organizadas por cores. O usuário também pode alterar informações do seu perfil. Todas as operações são simples e diretas, com foco na usabilidade.
 
-- Crie uma pasta chamada cache dentro da pasta source
-- Crie o arquivo app.php dentro da pasta config utilizando o exemplo "app.sample.php"
+## Colocando para funcionar
 
-### Contato
+Para testar o projeto localmente:
 
-- Linkedin [@Yuri Oliveira](https://www.linkedin.com/in/yuri-oliveira-0703801a2/)
+- Crie uma pasta chamada **cache** dentro da pasta `source`
+- Crie o arquivo `app.php` dentro da pasta `config` usando como base o arquivo `app.sample.php`
+
+## License
+
+Note is open-sourced software licensed under the [MIT license](LICENSE).
